@@ -1,0 +1,9 @@
+name: "S3 Copy"
+description: "Copy a local directory to an S3 bucket"
+author: xelfer
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: copy
+  color: purple
